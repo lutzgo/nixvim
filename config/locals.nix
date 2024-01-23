@@ -1,0 +1,5 @@
+{
+  localOptions = {
+    foldmethod = "indent";
+  };
+}

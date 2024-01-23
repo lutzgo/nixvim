@@ -7,8 +7,8 @@
     };
 
     enable = true;
-    
-    diagnostics = {
+
+		diagnostics = {
       enable = true;
     };
     

@@ -3,6 +3,9 @@
   imports = [
     ./auto.nix
     ./clipboard.nix
+		./keymaps.nix
+		./globals.nix
+#    ./locals.nix
     ./options.nix
     ./themes.nix
 
@@ -10,7 +13,8 @@
     ./blankline.nix
     ./bufferline.nix
     ./completion.nix
-    ./dashboard.nix
+#    ./dashboard.nix
+#		./folding.nix
     ./git.nix
     ./lsp.nix
     ./neorg.nix
@@ -19,5 +23,6 @@
     ./telescope.nix
     ./tree.nix
     ./treesitter.nix
+		./ui.nix
   ];
 }

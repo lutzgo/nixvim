@@ -1,15 +1,14 @@
 {
   colorschemes.gruvbox = {
     enable = true;
-    bold = true;
-    #contrastDark = "hard";
-    improvedStrings = true;
-    improvedWarnings = true;
-    italics = true;
-    transparentBg = true;
-    trueColor = true;
-    undercurl = true;
-    underline = true;
+		bold = true;
+    contrastDark = "medium";
+		improvedStrings = true;
+		improvedWarnings = true;
+		transparentBg = true;
+		trueColor = true;
+		undercurl = true;
+		underline = true;
   };
 
   highlight = {

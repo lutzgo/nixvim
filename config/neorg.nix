@@ -17,6 +17,8 @@
       "core.concealer" = {
         config = {
           folds = true;
+					icon_preset = "diamond";
+					init_open_folds = "never";
         };
       };
 
@@ -42,7 +44,8 @@
       "core.journal" = {
         config = {
           journal_folder = "journal";
-          workspace = "~/citizengo/travel";
+          strategy = "flat";
+          workspace = "journal";
       };
 
       };

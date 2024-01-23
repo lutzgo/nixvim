@@ -1,7 +1,7 @@
 {
   plugins.lualine = {
     enable = true;
-    theme = "gruvbox";
+    theme = "auto";
     componentSeparators = {
       left = "";
       right = "";
@@ -19,6 +19,6 @@
           };
         }
       ];
-    };
+		};
   };
 }
