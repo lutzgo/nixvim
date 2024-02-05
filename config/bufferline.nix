@@ -1,11 +1,14 @@
 {
   plugins.bufferline = {
     enable = true;
+		highlights = {
+			tabSeparator.reverse = true;
+		};
 		hover.enabled = true;
     rightMouseCommand = "vertical sbuffer %d";
     numbers = "both";
     diagnostics = "nvim_lsp";
-    separatorStyle = "slant";
+    separatorStyle = "thin";
     offsets = [
       {
         filetype = "NvimTree";

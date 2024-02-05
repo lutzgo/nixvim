@@ -4,7 +4,7 @@
     extensions = {
       file_browser = {
 				enable = true;
-				#file_browser.grouped = true;
+				grouped = true;
 				hijackNetrw = true;
 			};
 
@@ -14,6 +14,7 @@
 			};
 
       media_files.enable = true;
+			undo.enable = true;
     };
 
     defaults = {

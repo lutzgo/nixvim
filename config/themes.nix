@@ -1,4 +1,6 @@
+{nix-colors, ... }:
 {
+#	colorscheme = nix-colors.colorschemes.gruvbox;
   colorschemes.gruvbox = {
     enable = true;
 		bold = true;

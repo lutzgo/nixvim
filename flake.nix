@@ -4,6 +4,7 @@
   inputs = {
     nixvim.url = "github:nix-community/nixvim";
     flake-utils.url = "github:numtide/flake-utils";
+		nix-colors.url = "github:misterio77/nix-colors";
   };
 
   outputs = {
@@ -11,6 +12,7 @@
     nixpkgs,
     nixvim,
     flake-utils,
+		nix-colors,
     ...
   } @ inputs: let
     config = import ./config; # import the module directly
@@ -25,6 +27,7 @@
         # You can use `extraSpecialArgs` to pass additional arguments to your module files
         extraSpecialArgs = {
           inherit self;
+					inherit nix-colors;
         };
       };
     in {

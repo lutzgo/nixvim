@@ -1,6 +1,7 @@
-{self, ...}: {
+{self, nix-colors, ...}: {
   # Import all your configuration modules here
   imports = [
+		#nix-colors.homeManagerModules.default
     ./auto.nix
     ./clipboard.nix
 		./keymaps.nix
@@ -24,5 +25,6 @@
     ./tree.nix
     ./treesitter.nix
 		./ui.nix
+		./whichkey.nix
   ];
 }
