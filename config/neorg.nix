@@ -27,7 +27,7 @@
           workspaces = {
             travel = "~/citizengo/03_travel";
             tinker = "~/citizego/04_tinker";
-            teach = "~/citizengo/05_teach";
+            teach = "~/citizengo/LGo/teach";
             journal = "~/citizengo/LGo/journal";
           };
         };
