@@ -1,6 +1,7 @@
 {
   plugins.neorg ={
     enable = true;
+		lazyLoading = false;
 
     modules = {
       "core.defaults" = {
@@ -25,6 +26,7 @@
       "core.dirman" = {
         config = {
           workspaces = {
+						citizengo = "~/citizengo";
             travel = "~/citizengo/03_travel";
             tinker = "~/citizego/04_tinker";
             teach = "~/citizengo/LGo/teach";

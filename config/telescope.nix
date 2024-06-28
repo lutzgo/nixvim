@@ -2,22 +2,31 @@
   plugins.telescope = {
     enable = true;
     extensions = {
-      file_browser = {
+      file-browser = {
 				enable = true;
-				grouped = true;
-				hijackNetrw = true;
+				settings = {
+					add_dirs = true;
+					grouped = true;
+					hijackNetrw = true;
+				};
 			};
 
-      fzf-native.fuzzy = true;
+      fzf-native = {
+				enable = true;
+				settings = {
+					fuzzy = true;
+				};
+			};
+
 			frecency = {
 				enable = true;
 			};
 
-      media_files.enable = true;
+      media-files.enable = true;
 			undo.enable = true;
     };
 
-    defaults = {
+    settings.defaults = {
       #borderchars = { "─"; "│"; "─"; "│"; "╭"; "╮"; "╯"; "╰" };
      # buffer_previewer_maker = require("telescope.previewers").buffer_previewer_maker;
 

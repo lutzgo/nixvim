@@ -1,7 +1,7 @@
 {
   plugins.gitsigns = {
     enable = true;
-    currentLineBlame = false;
+    settings.currentLineBlame = false;
 
     #onAttach = ''
     #{

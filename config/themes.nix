@@ -3,14 +3,14 @@
 #	colorscheme = nix-colors.colorschemes.gruvbox;
   colorschemes.gruvbox = {
     enable = true;
-		bold = true;
-    contrastDark = "medium";
-		improvedStrings = true;
-		improvedWarnings = true;
-		transparentBg = true;
-		trueColor = true;
-		undercurl = true;
-		underline = true;
+#		bold = true;
+#    contrastDark = "medium";
+#		improvedStrings = true;
+#		improvedWarnings = true;
+#		transparentBg = true;
+#		trueColor = true;
+#		undercurl = true;
+#		underline = true;
   };
 
   highlight = {
